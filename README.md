@@ -3,8 +3,11 @@ Interior point optimization on GPU. A code I wrote in 2016 to solve an interior 
 
 I have included below a screenshot of the actual output. In the output reported below, the variables x[0] and x[1] represent the optimal dimensions of the major and minor axes of a circumscribing ellipse to a given region. The time it took for various tasks in a single iteration are represented as 
 MM: to perform matrix-matrix product, 
+
 LU: to perform LU decomposition, 
+
 Mem: to copy n elements from a vector x in host memory space to a vector y in GPU memory space, 
+
 H2: to compute the Euclidean norm of the vector x.
 
 
