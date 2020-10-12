@@ -1,5 +1,11 @@
 # Interior-point-optimization-on-GPU
-Interior point optimization on GPU. A code I wrote in 2016 to solve an interior point (IP) optimization problem on GPU (Jetson tx1). The focus is more on translating an algorithm from literature into a code snippet that should solve the IP problem and run faster as compared to a Matlab version ( targeted for a regular laptop).   
+General introducton:
+
+A code I wrote in 2016 to solve an interior point (IP) optimization problem on GPU (Jetson tx1). 
+
+Objective:
+
+The focus is more on translating an algorithm from literature into a code snippet that should solve the IP problem and run faster as compared to a Matlab version ( targeted for a regular laptop) and to be embedded within a model predictive recursion.   
 
 I have included below a screenshot of the actual output. In the output reported below, the variables x[0] and x[1] represent the optimal dimensions of the major and minor axes of a circumscribing ellipse to a given region. The time it took for various tasks in a single iteration are represented as: 
 
