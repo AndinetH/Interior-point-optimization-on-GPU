@@ -23,6 +23,7 @@ H2: to compute the Euclidean norm of the vector x.
 
 The code uses cublas as well as magma packages/libraries. Send an email for the full code. 
 
+```cpp
 # include <stdio.h>
 # include <stdlib.h>
 # include <math.h>
@@ -35,3 +36,4 @@ The code uses cublas as well as magma packages/libraries. Send an email for the 
 
 #define IDX2C (i ,j , N_p) ((( j )*( N_p ))+( i ))
 #define sign(x) ((x==0) ? 0 : (x<0 ? -1:1))
+```
