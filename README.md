@@ -31,3 +31,7 @@ The code uses cublas as well as magma packages/libraries. Send an email for the 
 
 # include "magma.h"
 # include "magma_lapack.h"
+
+
+#define IDX2C (i ,j , N_p) ((( j )*( N_p ))+( i ))
+#define sign(x) ((x==0) ? 0 : (x<0 ? -1:1))
